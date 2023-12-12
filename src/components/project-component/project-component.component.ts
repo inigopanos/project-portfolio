@@ -9,4 +9,12 @@ import { Component } from '@angular/core';
 })
 export class ProjectComponent {
 
+  title = '¡Vaya ruina!';
+  image = '/assets/images/heart.png';
+  description = 'Este es un proyecto muy interesante que hice.';
+  link = 'https://vaya-ruina.netlify.app';
+
+  constructor() {}
+
+  ngOnInit() { }
 }

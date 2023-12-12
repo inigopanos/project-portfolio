@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-import { FooterComponent } from '../components/footer-component/footer-component.component';
 import { ProjectComponent } from '../components/project-component/project-component.component';
+import { CvComponent } from '../components/cv-component/cv-component.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, FooterComponent, ProjectComponent],
+  imports: [CommonModule, RouterOutlet, ProjectComponent, CvComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

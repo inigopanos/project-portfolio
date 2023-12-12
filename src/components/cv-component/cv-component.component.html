@@ -1,0 +1,30 @@
+<div class="cv">
+  <h1>Curriculum vitae</h1>
+
+  <section class="experience">
+    <h2>Experiencia</h2>
+
+    <ul>
+      @for (experience of experiences; track experience.title) {
+      <li>
+        <h3>{{ experience.title }}</h3>
+        <p>{{ experience.company }}</p>
+        <p>{{ experience.start }} - {{ experience.end }}</p>
+      </li>
+      } @empty {
+        <li> There are no items. </li>
+      }
+    </ul>
+  </section>
+
+  <section class="skills">
+    <h2>Habilidades</h2>
+
+    <ul>
+      <li *@for="let skill of skills">
+        <h3>{{ skill.name }}</h3>
+        <p>{{ skill.level }}</p>
+      </li>
+    </ul>
+  </section>
+</div>
