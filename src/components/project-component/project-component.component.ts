@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ProjectI } from '../../app/interface/interfaces';
 
 @Component({
   selector: 'app-project-component',
@@ -8,13 +9,28 @@ import { Component } from '@angular/core';
   styleUrl: './project-component.component.css'
 })
 export class ProjectComponent {
-
-  title = '¡Vaya ruina!';
-  image = '/assets/images/heart.png';
-  description = 'Este es un proyecto muy interesante que hice.';
-  link = 'https://vaya-ruina.netlify.app';
+  projects: Array<ProjectI> = []
 
   constructor() {}
 
-  ngOnInit() { }
+  ngOnInit() {
+    this.projects = [
+      {
+        title: '¡Vaya ruina!',
+        image: '/assets/images/columna.png',
+        description: 'MEVN stack project, in which you can create, update, read and delete ruins, as well as register and login as users. Tested on backend using Jest.',
+        link: 'https://vaya-ruina.netlify.app',
+        skills: ['Vue.js', 'Web Design', 'Typescript', 'Node.js', 'MongoDB', 'Jest'],
+        githubFrontend: 'https://github.com/inigopanos/Inigo-Panos_Front-Final-Project-202201-MAD',
+        githubBackend: 'https://github.com/inigopanos/Inigo-Panos_Back-Final-Project-202201-MAD',
+      },
+      {
+        title: 'Albums',
+        image: '/assets/images/columna.png',
+        description: 'MEAN stack project, in which you can create, update, read and delete albums.',
+        link:'holahola',
+        skills: ['Angular', 'Node.js', 'Typescript', 'Node.js', 'MongoDB']
+      }
+    ]
+   }
 }

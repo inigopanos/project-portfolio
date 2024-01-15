@@ -12,7 +12,7 @@
         <p>{{ experience.start }} - {{ experience.end }}</p>
       </li>
       } @empty {
-        <li> There are no items. </li>
+      <li>There are no items.</li>
       }
     </ul>
   </section>
@@ -21,10 +21,13 @@
     <h2>Habilidades</h2>
 
     <ul>
-      <li *@for="let skill of skills">
+      @for (skill of skills; track skill.name){
+      <li>
         <h3>{{ skill.name }}</h3>
-        <p>{{ skill.level }}</p>
       </li>
+      } @empty {
+      <li>There are no skills!</li>
+      }
     </ul>
   </section>
 </div>

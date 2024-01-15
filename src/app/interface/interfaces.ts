@@ -8,5 +8,14 @@ export interface ExperienceI {
   
 export interface SkillI {
     name: string;
-    level: string;
   }
+
+export interface ProjectI {
+  image: string,
+  title: string,
+  description: string,
+  link: string,
+  skills: string[],
+  githubFrontend?: string,
+  githubBackend?: string,
+}

@@ -18,36 +18,38 @@ export class CvComponent {
     // Carga la experiencia
     this.experiences = [
       {
-        title: 'Desarrollador web',
-        company: 'Google',
+        title: 'Software developer',
+        company: 'UPNA',
         start: '2020-01-01',
-        end: 'Presente'
+        end: 'Presente',
       },
       {
-        title: 'Ingeniero de software',
-        company: 'Microsoft',
+        title: 'Software developer',
+        company: 'UPNA',
         start: '2018-01-01',
-        end: '2020-01-01'
-      }
+        end: '2020-01-01',
+      },
+      {
+        title: 'Software developer',
+        company: 'UPNA',
+        start: '2018-01-01',
+        end: '2020-01-01',
+      },
     ];
 
     // Carga las habilidades
     this.skills = [
       {
         name: 'Angular',
-        level: 'Experto'
       },
       {
         name: 'TypeScript',
-        level: 'Experto'
       },
       {
         name: 'HTML',
-        level: 'Avanzado'
       },
       {
         name: 'CSS',
-        level: 'Avanzado'
       }
     ];
   }

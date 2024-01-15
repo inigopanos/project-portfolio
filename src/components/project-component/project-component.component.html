@@ -1,7 +1,24 @@
-<p>project-component works!</p>
-<div class="project">
-    <img src="{{image}}" alt="{{title}}">
-    <h2>{{title}}</h2>
-    <p>{{description}}</p>
-    <a href="{{link}}" target="_tab">Ver más</a>
+<h2>Recent Projects</h2>
+@for (project of projects; track project.title) {
+<div class="project-card">
+  <div class="project-card__image">
+    <img src="{{ project.image }}" alt="{{ project.title }}" class="project_card__image"/>
   </div>
+  <div class="project-card__description">
+    <div class="description__title">
+      <h2>{{ project.title }}</h2>
+      @for (skill of project.skills; track skill) {
+      <div class="skill">{{skill}}</div>
+     }
+    </div>
+    <div class="description__description">
+      <p>{{ project.description }}</p>
+    </div>
+
+    <a href="{{ project.link }}" target="_tab">Ver más</a>
+    <a href="{{ project.githubFrontend }}" target="_blank">
+      <!-- <img src="/assets/images/github-logo.png" alt=""> -->
+    </a>
+  </div>
+</div> }
+ 
