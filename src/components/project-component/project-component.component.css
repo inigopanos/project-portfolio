@@ -1,17 +1,18 @@
 .project-card {
-  background-color: white;
+  background-color:rgb(30, 41, 59);
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
   margin: 10px;
 
   width: 800px;
-  height: 150px;
+  height: 200px;
 
   display: flex;
 }
 
 .project_card__image {
+  /* background-color:rgb(30, 41, 59); */
   width: 5rem;
   height: 5rem;
   margin-right: 5rem;
@@ -27,11 +28,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: grey;
 }
 
 .description__title {
   display: flex;
   align-items: center;
+  color: white;
+}
+
+.project-card__links {
 }
 
 .skill {
