@@ -1,23 +1,23 @@
 .project-card {
-  background-color:rgb(30, 41, 59);
+  display: flex;
+
+  background-color:rgb(39, 47, 59);
   border: 1px solid #ccc;
   border-radius: 5px;
+
   padding: 10px;
   margin: 10px;
-
-  width: 800px;
-  height: 180px;
-
-  display: flex;
+  width: 750px;
+  height: 160px;
 }
 
 .project_card__image {
   /* background-color:rgb(30, 41, 59); */
   width: 5rem;
   height: 5rem;
-  margin-right: 5rem;
-  margin-left: 4rem;
-  margin-top: 2rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
 }
 
 .project_card__image:hover {

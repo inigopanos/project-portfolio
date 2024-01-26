@@ -27,7 +27,7 @@ export class ProjectComponent {
       {   
         title: 'Albums',
         image: '/assets/images/album.png',
-        description: 'MEAN stack project, in which you can create, update, read and delete albums.',
+        description: 'MEAN stack project, in which you can create, update, read and delete albums.  ',
         link:'holahola',
         skills: ['Angular', 'Node.js', 'Typescript', 'Node.js', 'MongoDB']
       }

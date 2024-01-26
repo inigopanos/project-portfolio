@@ -4,3 +4,9 @@
     justify-content: space-around;
     color: rgb(64, 57, 57);
 }
+
+.cv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

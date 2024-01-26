@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;  
+}
+
+.github-logo{
+    width: 5rem;
+    height: 5rem;
+}
+
+.linkedin-logo{
+    width: 3rem;
+    height: 3rem;
+}

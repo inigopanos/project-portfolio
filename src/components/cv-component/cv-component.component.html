@@ -6,13 +6,13 @@
 
     <ul>
       @for (experience of experiences; track experience.title) {
-      <li>
+      <li class="lista">
         <h3>{{ experience.title }}</h3>
         <p>{{ experience.company }}</p>
         <p>{{ experience.start }} - {{ experience.end }}</p>
       </li>
       } @empty {
-      <li>There are no items.</li>
+      <li class="lista">There are no items.</li>
       }
     </ul>
   </section>
@@ -22,11 +22,11 @@
 
     <ul>
       @for (skill of skills; track skill.name){
-      <li>
+      <li class="lista">
         <h3>{{ skill.name }}</h3>
       </li>
       } @empty {
-      <li>There are no skills!</li>
+      <li class="lista">There are no skills!</li>
       }
     </ul>
   </section>

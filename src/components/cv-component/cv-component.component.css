@@ -1,4 +1,9 @@
 .cv {
-    border: 1px solid black;
-    padding: 10px;
+  border: 1px solid black;
+  padding: 10px;
+  list-style-type: none;
+
+}
+.lista{
+    list-style-type: none;
 }
