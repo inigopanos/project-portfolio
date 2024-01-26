@@ -1,9 +1,27 @@
 .cv {
   border: 1px solid black;
+  border-radius: 5px;
   padding: 10px;
   list-style-type: none;
 
+  background-color: rgba(73, 69, 64, 0.285);
 }
-.lista{
-    list-style-type: none;
+
+ul{
+  padding: 0;
+}
+
+.lista {
+  list-style-type: none;
+  margin: 5px;
+  /* display: flex;
+  flex-direction: column;
+  margin: 0px; */
+}
+
+.foto_dni {
+  width: 100px;
+  height: 120px;
+  border-radius: 50%;
+  border: 1px solid black;
 }

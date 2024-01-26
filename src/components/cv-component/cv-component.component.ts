@@ -44,21 +44,5 @@ export class CvComponent {
         end: '2021',
       },
     ];
-
-    // Carga las habilidades
-    this.skills = [
-      {
-        name: 'Angular',
-      },
-      {
-        name: 'TypeScript',
-      },
-      {
-        name: 'HTML',
-      },
-      {
-        name: 'CSS',
-      }
-    ];
   }
 }

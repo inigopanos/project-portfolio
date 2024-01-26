@@ -1,4 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
-/* body {
-    background-color: rgb(168, 177, 197); /* Reemplaza #f0f0f0 con el color que desees 
-  } */
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities */
+
+@font-face {
+  font-family: 'NombreFuente'; /* Asigna un nombre a tu fuente */
+  src: url('./assets/fonts/SansTagbanwa/NotoSansTagbanwa-Regular.ttf') format('woff'); /* Ruta relativa a tu archivo de fuente */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Aplica la fuente a los elementos que deseas */
+body {
+  font-family: 'NombreFuente', sans-serif; /* Usa el nombre asignado a tu fuente */
+  background-color: #e7e1ef;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

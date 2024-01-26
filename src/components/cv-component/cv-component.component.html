@@ -1,33 +1,20 @@
 <div class="cv">
-  <h1>Curriculum vitae</h1>
+  <img src="/assets/images/foto_dni_2021.jpg" alt="foto" class="foto_dni" />
+  <div class="experience">
+    <section>
+      <h2>Experiencia</h2>
 
-  <section class="experience">
-    <h2>Experiencia</h2>
-
-    <ul>
-      @for (experience of experiences; track experience.title) {
-      <li class="lista">
-        <h3>{{ experience.title }}</h3>
-        <p>{{ experience.company }}</p>
-        <p>{{ experience.start }} - {{ experience.end }}</p>
-      </li>
-      } @empty {
-      <li class="lista">There are no items.</li>
-      }
-    </ul>
-  </section>
-
-  <section class="skills">
-    <h2>Habilidades</h2>
-
-    <ul>
-      @for (skill of skills; track skill.name){
-      <li class="lista">
-        <h3>{{ skill.name }}</h3>
-      </li>
-      } @empty {
-      <li class="lista">There are no skills!</li>
-      }
-    </ul>
-  </section>
+      <ul>
+        @for (experience of experiences; track experience.title) {
+        <li class="lista">
+          <h3>{{ experience.title }}</h3>
+          <p>{{ experience.company }}</p>
+          <p>{{ experience.start }} - {{ experience.end }}</p>
+        </li>
+        } @empty {
+        <li class="lista">There are no items.</li>
+        }
+      </ul>
+    </section>
+  </div>
 </div>
