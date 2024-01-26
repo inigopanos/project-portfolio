@@ -16,24 +16,32 @@ export class CvComponent {
 
   ngOnInit() {
     // Carga la experiencia
+
+    //TODO añadir descripción
     this.experiences = [
       {
-        title: 'Software developer',
+        title: 'Univeristy lecturer, AI on Vidogames',
         company: 'UPNA',
-        start: '2020-01-01',
-        end: 'Presente',
+        start: '2023',
+        end: '2024',
       },
       {
         title: 'Software developer',
         company: 'UPNA',
-        start: '2018-01-01',
-        end: '2020-01-01',
+        start: '01-04-2023',
+        end: '01-10-2023',
       },
       {
         title: 'Software developer',
         company: 'UPNA',
-        start: '2018-01-01',
-        end: '2020-01-01',
+        start: '2022',
+        end: '2023',
+      },
+      {
+        title: 'Software developer',
+        company: 'UPNA',
+        start: '2020',
+        end: '2021',
       },
     ];
 
