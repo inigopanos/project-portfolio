@@ -2,14 +2,14 @@
   <img src="/assets/images/foto_dni_2021.jpg" alt="foto" class="foto_dni" />
   <div class="experience">
     <section>
-      <h2>Experiencia</h2>
+      <h2>Experience</h2>
 
       <ul>
         @for (experience of experiences; track experience.title) {
         <li class="lista">
-          <h3>{{ experience.title }}</h3>
-          <p>{{ experience.company }}</p>
-          <p>{{ experience.start }} - {{ experience.end }}</p>
+          <h3 class="title">{{ experience.title }}</h3>
+          <p class="company">{{ experience.company }}</p>
+          <p class="date">{{ experience.start }} - {{ experience.end }}</p>
         </li>
         } @empty {
         <li class="lista">There are no items.</li>
