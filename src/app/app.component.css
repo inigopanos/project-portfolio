@@ -1,8 +1,11 @@
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+
 .main-page{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    color: rgb(64, 57, 57);
+    color: white; 
 }
 main{
     display: flex;

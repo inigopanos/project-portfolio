@@ -1,19 +1,21 @@
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities */
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
 
 @font-face {
-  font-family: 'NombreFuente'; /* Asigna un nombre a tu fuente */
-  src: url('./assets/fonts/SansTagbanwa/NotoSansTagbanwa-Regular.ttf') format('woff'); /* Ruta relativa a tu archivo de fuente */
+  font-family: 'NotoSansTagbanwa';
+  src: local('./assets/fonts/SansTagbanwa/NotoSansTagbanwa-Regular.ttf'); 
   font-weight: normal;
   font-style: normal;
 }
 
-/* Aplica la fuente a los elementos que deseas */
 body {
-  font-family: 'NombreFuente', sans-serif; /* Usa el nombre asignado a tu fuente */
-  background-color: #e7e1ef;
+  font-family: 'NotoSansTagbanwa', sans-serif;
+  background-color: rgb(18, 28, 44);
 }
+
+html, body { height: 100%; }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
