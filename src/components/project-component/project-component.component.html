@@ -26,11 +26,14 @@
     </mat-card-content>
     <mat-card-actions>
       <div class="botones">
-        <a href="{{ project.githubFrontend }}" target="_blank">
-          <button mat-raised-button>Github</button>
+        <a href="{{ project.githubFrontend }}" target="_blank" style="display: inline-block; margin-right: 20px;">
+          <button mat-raised-button>Github Frontend</button>
         </a>
-        <a href="{{ project.link }}" target="_blank">
-          <button mat-raised-button style="margin-right: 20px">Site</button>
+        <a href="{{ project.githubBackend }}" target="_blank" style="display: inline-block; margin-right: 20px;">
+          <button mat-raised-button>Github Backend</button>
+        </a>
+        <a href="{{ project.link }}" target="_blank" style="display: inline-block; margin-right: 20px;">
+          <button mat-raised-button>Site</button>
         </a>
       </div>
     </mat-card-actions>

@@ -1,13 +1,23 @@
 import { Component } from '@angular/core';
 import { ProjectI } from '../../app/interface/interfaces';
 import {MatButtonModule} from '@angular/material/button';
+import {
+  MatDialog,
+  MatDialogActions,
+  MatDialogClose,
+  MatDialogContent,
+} from '@angular/material/dialog';
+import {MatMenuTrigger, MatMenuModule} from '@angular/material/menu';
 import {MatCardModule} from '@angular/material/card';
 import {MatDialogModule} from '@angular/material/dialog';
+
+
+
 
 @Component({
   selector: 'app-project-component',
   standalone: true,
-  imports: [MatCardModule, MatButtonModule, MatDialogModule],
+  imports: [MatCardModule, MatButtonModule, MatDialogModule, MatMenuModule],
   templateUrl: './project-component.component.html',
   styleUrl: './project-component.component.css'
 })
