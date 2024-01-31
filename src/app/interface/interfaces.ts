@@ -14,7 +14,7 @@ export interface ProjectI {
   image: string,
   title: string,
   description: string,
-  link: string,
+  link?: string,
   skills: string[],
   githubFrontend?: string,
   githubBackend?: string,

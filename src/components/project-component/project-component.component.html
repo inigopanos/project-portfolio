@@ -32,9 +32,10 @@
         <a href="{{ project.githubBackend }}" target="_blank" style="display: inline-block; margin-right: 20px;">
           <button mat-raised-button>Github Backend</button>
         </a>
+        @if (project.link) {
         <a href="{{ project.link }}" target="_blank" style="display: inline-block; margin-right: 20px;">
           <button mat-raised-button>Site</button>
-        </a>
+        </a>}
       </div>
     </mat-card-actions>
   </mat-card>

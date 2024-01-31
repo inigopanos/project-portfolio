@@ -42,7 +42,8 @@ export class ProjectComponent {
         title: 'Albums',
         image: '/assets/images/album.png',
         description: 'MEAN stack project, in which you can create, update, read and delete albums.  ',
-        link:'holahola',
+        githubBackend: 'https://github.com/inigopanos/AlbumList',
+        githubFrontend: 'https://github.com/inigopanos/AlbumList',
         skills: ['Angular', 'Node.js', 'Typescript', 'Node.js', 'MongoDB']
       }
     ]
